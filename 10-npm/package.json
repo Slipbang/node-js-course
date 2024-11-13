@@ -1,0 +1,21 @@
+{
+  "name": "staschuknodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "dev": "onchange -i -k \"**/*.js\" -- node index.js"
+  },
+  "author": "Slipbang",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "onchange": "^7.1.0"
+  }
+}
