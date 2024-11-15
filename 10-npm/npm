@@ -1,0 +1,6 @@
+npm i -D <package name> // установка пакета в devDependencies, пакеты участвуют только в разработке
+npm i --omit=dev // установка пакетов для продакшн билдов, пакеты из devDependencies не устанавливаются
+npm update <package name> // апдейт npm пакета по минорной версии и патчу
+npm i <package name>@latest //апдейт npm пакета до последней версии
+npm i <package name>@<version> // установка npm пакета определенной версии. пример: npm i debug@1.9.0
+npm ci //используется для установки конкретных пакетов установленных в package.json и переустанавливает node_modules полностью
